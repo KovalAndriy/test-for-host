@@ -12,6 +12,10 @@ function App() {
       text: 'Разработать ToDo на ReactJS',
       completed: false,
     },
+    {
+      text: 'Перевірка',
+      completed: false,
+    },
   ]);
 
   const onToggleCompleted = (index) => {
